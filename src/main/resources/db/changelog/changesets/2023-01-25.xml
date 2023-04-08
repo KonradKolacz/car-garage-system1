@@ -1,0 +1,36 @@
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
+
+
+    <changeSet id="3" author="Konrad">
+        <insert tableName="garage">
+            <column name="name" value="MLOCINY"/>
+            <column name="capacity" value="100"/>
+            <column name="is_allowed_lpg" valueBoolean="true"/>
+        </insert>
+        <insert tableName="garage">
+            <column name="name" value="WILANOWSKA"/>
+            <column name="capacity" value="5"/>
+            <column name="is_allowed_lpg" valueBoolean="true"/>
+        </insert>
+        <insert tableName="garage">
+            <column name="name" value="CENTRUM"/>
+            <column name="capacity" value="20"/>
+            <column name="is_allowed_lpg" valueBoolean="true"/>
+        </insert>
+        <insert tableName="garage">
+            <column name="name" value="WOLA"/>
+            <column name="capacity" value="100"/>
+            <column name="is_allowed_lpg" valueBoolean="false"/>
+        </insert>
+        <insert tableName="garage">
+            <column name="name" value="PRAGA"/>
+            <column name="capacity" value="50"/>
+            <column name="is_allowed_lpg" valueBoolean="false"/>
+        </insert>
+    </changeSet>
+
+
+</databaseChangeLog>

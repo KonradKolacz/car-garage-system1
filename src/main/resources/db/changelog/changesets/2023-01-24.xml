@@ -1,0 +1,167 @@
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
+
+
+    <changeSet id="2" author="Konrad">
+        <insert tableName="car">
+            <column name="mark" value="BMW"/>
+            <column name="model" value="X6"/>
+            <column name="year_of_production" value="2015"/>
+            <column name="drive_type" value="PETROL"/>
+            <column name="vin" value="4S3BD4353T7209207"/>
+            <column name="garage_id" value="1"/>
+        </insert>
+        <insert tableName="car">
+            <column name="mark" value="BMW"/>
+            <column name="model" value="SERIA 1"/>
+            <column name="year_of_production" value="2012"/>
+            <column name="drive_type" value="DIESEL"/>
+            <column name="vin" value="JH4KA4650LC000937"/>
+            <column name="garage_id" value="2"/>
+        </insert>
+        <insert tableName="car">
+            <column name="mark" value="Skoda"/>
+            <column name="model" value="Octavia RS"/>
+            <column name="year_of_production" value="2017"/>
+            <column name="drive_type" value="HYBRID"/>
+            <column name="vin" value="1G4AG55M9T6481548"/>
+            <column name="garage_id" value="2"/>
+        </insert>
+        <insert tableName="car">
+            <column name="mark" value="Mazda"/>
+            <column name="model" value="3"/>
+            <column name="year_of_production" value="2020"/>
+            <column name="drive_type" value="HYBRID"/>
+            <column name="vin" value="ZCFJS7458M1953433"/>
+            <column name="garage_id" value="2"/>
+        </insert>
+        <insert tableName="car">
+            <column name="mark" value="Opel"/>
+            <column name="model" value="Astra"/>
+            <column name="year_of_production" value="2009"/>
+            <column name="drive_type" value="PETROL"/>
+            <column name="vin" value="2BCHV81S4JB533621"/>
+            <column name="garage_id" value="2"/>
+        </insert>
+        <insert tableName="car">
+            <column name="mark" value="Seat"/>
+            <column name="model" value="Cordoba"/>
+            <column name="year_of_production" value="2008"/>
+            <column name="drive_type" value="PETROL"/>
+            <column name="vin" value="1B6MF36C6SS164013"/>
+            <column name="garage_id" value="2"/>
+        </insert>
+        <insert tableName="car">
+            <column name="mark" value="Volkswagen"/>
+            <column name="model" value="Passat"/>
+            <column name="year_of_production" value="2005"/>
+            <column name="drive_type" value="LPG"/>
+            <column name="vin" value="JNKCV61E49M014581"/>
+            <column name="garage_id" value="3"/>
+        </insert>
+        <insert tableName="car">
+            <column name="mark" value="Renault"/>
+            <column name="model" value="Scenic"/>
+            <column name="year_of_production" value="2000"/>
+            <column name="drive_type" value="LPG"/>
+            <column name="vin" value="JH4DA9340MS002938"/>
+            <column name="garage_id" value="3"/>
+        </insert>
+        <insert tableName="car">
+            <column name="mark" value="Honda"/>
+            <column name="model" value="Jazz"/>
+            <column name="year_of_production" value="2008"/>
+            <column name="drive_type" value="LPG"/>
+            <column name="vin" value="JH4CC2642RC001364"/>
+            <column name="garage_id" value="1"/>
+        </insert>
+        <insert tableName="car">
+            <column name="mark" value="Audi"/>
+            <column name="model" value="A4"/>
+            <column name="year_of_production" value="2001"/>
+            <column name="drive_type" value="LPG"/>
+            <column name="vin" value="JH4KA3263KC011910"/>
+            <column name="garage_id" value="1"/>
+        </insert>
+        <insert tableName="car">
+            <column name="mark" value="Volkswagen"/>
+            <column name="model" value="Polo"/>
+            <column name="year_of_production" value="2007"/>
+            <column name="drive_type" value="DIESEL"/>
+            <column name="vin" value="1G8AZ52F23Z114214"/>
+            <column name="garage_id" value="4"/>
+        </insert>
+        <insert tableName="car">
+            <column name="mark" value="Mercedes"/>
+            <column name="model" value="AMG"/>
+            <column name="year_of_production" value="2015"/>
+            <column name="drive_type" value="PETROL"/>
+            <column name="vin" value="1C3BC55D0CG133270"/>
+            <column name="garage_id" value="5"/>
+        </insert>
+        <insert tableName="car">
+            <column name="mark" value="Audi"/>
+            <column name="model" value="A6"/>
+            <column name="year_of_production" value="2017"/>
+            <column name="drive_type" value="DIESEL"/>
+            <column name="vin" value="4S3BD4353T7209207"/>
+            <column name="garage_id" value="1"/>
+        </insert>
+        <insert tableName="car">
+            <column name="mark" value="Kia"/>
+            <column name="model" value="Sportage"/>
+            <column name="year_of_production" value="2022"/>
+            <column name="drive_type" value="PETROL"/>
+            <column name="vin" value="4S3BD4353T7209207"/>
+            <column name="garage_id" value="4"/>
+        </insert>
+        <insert tableName="car">
+            <column name="mark" value="Volvo"/>
+            <column name="model" value="XC60"/>
+            <column name="year_of_production" value="2019"/>
+            <column name="drive_type" value="PETROL"/>
+            <column name="vin" value="JH4KA7670NC002886"/>
+            <column name="garage_id" value="4"/>
+        </insert>
+        <insert tableName="car">
+            <column name="mark" value="Citroen"/>
+            <column name="model" value="C5"/>
+            <column name="year_of_production" value="2019"/>
+            <column name="drive_type" value="PETROL"/>
+            <column name="vin" value="JF1GV7F67DG002982"/>
+            <column name="garage_id" value="1"/>
+        </insert>
+        <insert tableName="car">
+            <column name="mark" value="Ford"/>
+            <column name="model" value="Focus"/>
+            <column name="year_of_production" value="2018"/>
+            <column name="drive_type" value="DIESEL"/>
+            <column name="vin" value="YV1672MK9D2304784"/>
+        </insert>
+        <insert tableName="car">
+            <column name="mark" value="Nissan"/>
+            <column name="model" value="Juke"/>
+            <column name="year_of_production" value="2021"/>
+            <column name="drive_type" value="PETROL"/>
+            <column name="vin" value="1FVACXCSX7HY67259"/>
+        </insert>
+        <insert tableName="car">
+            <column name="mark" value="Skoda"/>
+            <column name="model" value="Enyaq"/>
+            <column name="year_of_production" value="2015"/>
+            <column name="drive_type" value="ELECTRIC"/>
+            <column name="vin" value="JH4KA4650JC000403"/>
+        </insert>
+        <insert tableName="car">
+            <column name="mark" value="Seat"/>
+            <column name="model" value="Ibiza"/>
+            <column name="year_of_production" value="2004"/>
+            <column name="drive_type" value="LPG"/>
+            <column name="vin" value="1C4GJ25342B521742"/>
+        </insert>
+    </changeSet>
+
+
+</databaseChangeLog>

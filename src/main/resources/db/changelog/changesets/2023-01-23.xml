@@ -1,0 +1,32 @@
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
+
+
+    <changeSet id="1" author="Konrad">
+        <createTable tableName="Car">
+            <column name="id" type="bigint" autoIncrement="true">
+                <constraints primaryKey="true"/>
+            </column>
+            <column name="mark" type="varchar(45)"/>
+            <column name="model" type="varchar(45)"/>
+            <column name="year_of_production" type="int"/>
+            <column name="drive_type" type="varchar(45)"/>
+            <column name="vin" type="varchar(45)"/>
+            <column name="garage_id" type="bigint"/>
+        </createTable>
+
+        <createTable tableName="garage">
+            <column name="id" type="bigint" autoIncrement="true">
+                <constraints primaryKey="true"/>
+            </column>
+            <column name="name" type="varchar(45)"/>
+            <column name="capacity" type="int"/>
+            <column name="is_allowed_lpg" type="boolean"/>
+        </createTable>
+
+    </changeSet>
+
+
+</databaseChangeLog>
